@@ -3,7 +3,7 @@ name: CI
 on:
   schedule:
     # build every monday at 00:15 UTC
-    - cron:  '15 0 * * 1'
+    - cron:  '22 15 * * 6'
   push:
   pull_request:
     branches: [ master ]
